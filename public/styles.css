@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 55px;
+
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar .nav-header {
+  margin-left: 7px;
+
+  display: inline;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+.card {
+  margin: 18px;
+
+  width: 471px;
+  height: 168px;
+
+  display: flex;
+}
+
+.card-img {
+  height: 100%;
+  width: 125px;
+  border-radius: 5px;
+
+  object-fit: cover;
+}
+
+.card-content {
+  padding-top: 10px;
+}
+
+.card-top-content {
+  margin: auto 19px 9px 19px;
+  display: flex;
+  align-items: center;
+}
+
+.card-pin {
+  margin-right: 4px;
+}
+
+.card-location {
+  font-size: 10px;
+  margin-right: 12px;
+
+  font-weight: 400;
+}
+
+.card-title {
+  margin: auto 19px 9px 19px;
+}
+
+.card-duration {
+  margin: 20px 19px 9px 19px;
+
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+.card-description {
+  margin: 9px 19px auto 19px;
+
+  font-size: 10px;
+
+}
+
+hr {
+  background-color: #F5F5F5;
+  height: 1px;
+  border: none;
+}
+
+a {
+  color: #918E9B;
+  font-size: 10px;
+}
